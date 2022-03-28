@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head id="header">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head id="header">
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>product-landing-page</title>
-
-    <img src="" id="header-img" alt="logo">
-</head>
-<body>
-    
-
+  </head>
+  <header id="header">
+    <h1>Cat posse</h1>
+    <img src="img/logo.png" id="header-img" alt="logo" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="">Link1</a>
+      <a class="nav-link" href="">Link2</a>
+      <a class="nav-link" href="">Link3</a>
+    </nav>
+  </header>
+  <body>
+    <section id="link1"></section>
+    <section id="link2"></section>
+    <section id="link3">
+      <iframe
+        src="https://youtu.be/mP0qgSKIPUY"
+        id="video"
+        frameborder="0"
+      ></iframe>
+    </section>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</body>
+  </body>
+  <footer>
+      <form id="form" action=" https://www.freecodecamp.com/email-submit">
+          <input 
+          type="text" 
+          id="text" 
+          name="text" 
+          placeholder="Question?" 
+          required>
+
+          <br>
+
+          <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          placeholder="what is your email?" required>
+
+          <input 
+          type="submit" 
+          id="submit" 
+          value="Ask now?" 
+          class="submit">
+          
+      </form>
+  </footer>
 </html>
