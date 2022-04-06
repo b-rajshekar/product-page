@@ -127,8 +127,11 @@ body {
 
 /* Video Section */
 #how-it-works {
-    max-width: 100%;
-    margin: 50px auto;
+   position: absolute;
+   margin: auto;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 /* Pricing */
