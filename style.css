@@ -176,3 +176,73 @@ body {
     cursor: pointer;
     font-size: 14px;
 }
+
+/* Footer */
+footer {
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+footer > ul {
+    padding: 0;
+}
+
+footer > ul li {
+    display: inline;
+}
+
+footer > ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+footer > ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Media Query */
+@media(min-width: 550px) {
+    #features .card .icon {
+        display: block;
+    }
+ 
+    #features .card .content {
+        text-align: left;
+    }
+}
+
+@media (min-width: 600px) {
+    #header {
+        flex-direction: row;
+        left: 5%;
+        right: 5%;
+    }
+
+    #nav-bar ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #nav-bar ul li {
+        display: inline;
+        margin-right: 50px;
+    }
+
+    #nav-bar ul li:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 800px) {
+    #pricing {
+        flex-direction: row;
+        align-self: center;
+    }
+
+    #pricing .card:not(last-child) {
+        margin-right: 15px;
+    }
+}
